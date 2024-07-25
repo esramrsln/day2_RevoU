@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Practice Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Belajar</h1>
+        <p>Ini adalah website latihan pertama</p>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap :</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal_lahir">Tanggal Lahir :</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+            </div>
+
+            <div class="form-group">
+                <label for="jenis_kelamin">Jenis Kelamin :</label>
+                    <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="5"></textarea>
+            </div>
+
+            <div class="">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
